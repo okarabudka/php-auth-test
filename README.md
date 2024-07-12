@@ -15,5 +15,3 @@
     classes — основной функционал модуля
         AjaxRequest.class.php — обертка для работы с Ajax-запросами
         Auth.class.php — класс для работы с пользователями
-
-Демо: http://example.com/
