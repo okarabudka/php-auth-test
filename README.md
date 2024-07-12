@@ -1,17 +1,17 @@
-Тестовое задание на позицию PHP Junior developer
+**Test Task for PHP Junior Developer Position**
 
-Структура файлов и папок:
+**File and Folder Structure:**
 
-    login.php — страница авторизации пользователя
-    register.php — страница регистрации
-    ajax.php — Файл для обработки Ajax-запросов
-    js — клиентские скрипты
-        ajax-form.js — скрипт для работы с Ajax-формами
-    css — стили CSS
-        style.css — основной файл стилей
-        reset.css — файл сброса кастомных стилей браузеров
-    vendor — сторонние third-party библиотеки
-        bootstrap — Twitter Bootstrap 2.3.2
-    classes — основной функционал модуля
-        AjaxRequest.class.php — обертка для работы с Ajax-запросами
-        Auth.class.php — класс для работы с пользователями
+- `login.php` — User login page
+- `register.php` — Registration page
+- `ajax.php` — File for handling Ajax requests
+- `js` — Client scripts
+    - `ajax-form.js` — Script for working with Ajax forms
+- `css` — CSS styles
+    - `style.css` — Main stylesheet
+    - `reset.css` — Browser custom styles reset file
+- `vendor` — Third-party libraries
+    - `bootstrap` — Twitter Bootstrap 2.3.2
+- `classes` — Main module functionality
+    - `AjaxRequest.class.php` — Wrapper for working with Ajax requests
+    - `Auth.class.php` — Class for working with users
