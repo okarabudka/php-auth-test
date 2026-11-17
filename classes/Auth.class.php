@@ -17,16 +17,20 @@ class User
     private $db;
     private $user_id;
 
-    private $db_host = "localhost";
-    private $db_name = "auth_test";
-    private $db_user = "testdb";
-    private $db_pass = "testdb";
+    private $db_host;
+    private $db_name;
+    private $db_user;
+    private $db_pass;
 
     private $is_authorized = false;
 
     public function __construct($username = null, $password = null)
     {
         $this->username = $username;
+        $this->db_host = getenv('DB_HOST') ?: 'localhost';
+        $this->db_name = getenv('DB_NAME') ?: 'auth_test';
+        $this->db_user = getenv('DB_USER') ?: 'root';
+        $this->db_pass = getenv('DB_PASSWORD') ?: '';
         $this->connectDb($this->db_name, $this->db_user, $this->db_pass, $this->db_host);
     }
 
